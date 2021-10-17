@@ -4,6 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+imageio = "==2.9.0"
+numpy = "==1.21.2"
+Pillow = "==8.3.2"
+gifconverter = {editable = true, path = "./.."}
 
 [dev-packages]
 

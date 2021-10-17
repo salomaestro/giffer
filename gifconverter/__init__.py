@@ -1,1 +1,1 @@
-from functions import make_gif
+from .src import make_gif

@@ -1,3 +1,5 @@
+README.md
+pyproject.toml
 setup.py
 gifconverter/__init__.py
 gifconverter.egg-info/PKG-INFO
