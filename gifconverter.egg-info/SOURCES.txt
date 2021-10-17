@@ -1,0 +1,9 @@
+setup.py
+gifconverter/__init__.py
+gifconverter.egg-info/PKG-INFO
+gifconverter.egg-info/SOURCES.txt
+gifconverter.egg-info/dependency_links.txt
+gifconverter.egg-info/top_level.txt
+gifconverter/functions/__init__.py
+gifconverter/functions/main.py
+gifconverter/functions/temp.py
