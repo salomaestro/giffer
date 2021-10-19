@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+giffer/__init__.py
+giffer.egg-info/PKG-INFO
+giffer.egg-info/SOURCES.txt
+giffer.egg-info/dependency_links.txt
+giffer.egg-info/requires.txt
+giffer.egg-info/top_level.txt
+giffer/src/__init__.py
+giffer/src/_temp.py
+giffer/src/_util.py
+giffer/src/tests/__init__.py
+giffer/src/tests/test_making_gif.py

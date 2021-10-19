@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: giffer
+Version: 0.0.1
+Summary: Basic .gif converter
+Home-page: UNKNOWN
+Author: Salomaestro
+Author-email: <chris10an.salomonsen@gmail.com>
+License: UNKNOWN
+Keywords: python,basic,gif
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+License-File: LICENSE
+
+A basic package which converts a folder of .png images to .gif file.
+

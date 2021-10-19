@@ -12,7 +12,7 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=["imageio, numpy, Pillow"],
+    install_requires=["imageio", "numpy", "Pillow"],
     keywords=["python", "basic", "gif"],
     classifiers=[
         "Operating System :: Microsoft :: Windows",
