@@ -1,4 +1,4 @@
-# Gifconverter
+# Giffer
 
 A package for simpler converting a set of images into a gif using the imageio package.
 
@@ -41,4 +41,4 @@ where `main.py` has the function `make_gif("./temp/images", "./temp/my_gif.gif")
 
 ### Example gif
 
-![example_gif](gifconverter/src/tests/giftest.gif)
+![example_gif](giffer/src/tests/giftest.gif)
