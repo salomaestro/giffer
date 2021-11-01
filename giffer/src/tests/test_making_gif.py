@@ -1,6 +1,6 @@
 import os
 
-from gifconverter import make_gif
+from giffer import make_gif
 
 path = os.path.dirname(__file__)
 img_folder = os.path.join(path, "test_images")
