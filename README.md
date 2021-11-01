@@ -41,4 +41,4 @@ where `main.py` has the function `make_gif("./temp/images", "./temp/my_gif.gif")
 
 ### Example gif
 
-![example_gif](giffer/src/tests/giftest.gif)
+![example_gif](https://github.com/salomaestro/giffer/blob/main/giffer/src/tests/giftest.gif)
