@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.0.3"
+VERSION = "0.1.1"
 DESCRIPTION = "Basic .gif converter"
 
 with open("README.md", "r", encoding="utf-8") as fh:
