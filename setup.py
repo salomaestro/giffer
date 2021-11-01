@@ -1,8 +1,10 @@
 from setuptools import setup, find_packages
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 DESCRIPTION = "Basic .gif converter"
-LONG_DESCRIPTION = "A basic package which converts a folder of .png images to .gif file."
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    LONG_DESCRIPTION = fh.read()
 
 setup(
     name="giffer",
@@ -11,6 +13,8 @@ setup(
     author_email="<chris10an.salomonsen@gmail.com>",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
+    url="https://github.com/salomaestro/giffer",
     packages=find_packages(),
     install_requires=["imageio", "numpy", "Pillow"],
     keywords=["python", "basic", "gif"],

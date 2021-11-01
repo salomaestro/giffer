@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: giffer
 Version: 0.0.1
 Summary: Basic .gif converter
-Home-page: UNKNOWN
+Home-page: https://github.com/salomaestro/giffer
 Author: Salomaestro
 Author-email: <chris10an.salomonsen@gmail.com>
 License: UNKNOWN
@@ -10,7 +10,51 @@ Keywords: python,basic,gif
 Platform: UNKNOWN
 Classifier: Operating System :: Microsoft :: Windows
 Classifier: Operating System :: MacOS :: MacOS X
+Description-Content-Type: text/markdown
 License-File: LICENSE
 
-A basic package which converts a folder of .png images to .gif file.
+# Giffer
+
+A package for simpler converting a set of images into a gif using the imageio package.
+
+***
+
+* [Provides](#provides)
+* [What will the function do?](#what-will-the-function-do)
+* [Example gif](#example-gif)
+
+***
+
+### Provides
+
+A function `make_gif()` which turns the specified images of an folder into a .gif.
+
+***
+
+### What will the function do?
+Given a folder structure as:
+```
+└───temp
+    ├───images
+    │   └───img (0).png
+    │   └───img (1).png
+    │   └───img (2).png
+    └───main.py
+```
+where `main.py` has the function `make_gif("./temp/images", "./temp/my_gif.gif")`. This will generate a file `.gif` going through the images. The final structure will look like:
+```
+└───temp
+    ├───images
+    │   └───img (0).png
+    │   └───img (1).png
+    │   └───img (2).png
+    ├───main.py
+    └───my_gif.gif
+```
+
+***
+
+### Example gif
+
+![example_gif](giffer/src/tests/giftest.gif)
 
