@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 from os.path import dirname, join
-from _util import make_gif
+from ._util import make_gif
 
 class Gif:
     """
