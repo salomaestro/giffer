@@ -18,8 +18,3 @@ def make_gif(folder_name: str, save_as: str) -> None:
         images.append(imageio.imread(os.path.join(folder_name, filename)))
 
     imageio.mimsave(save_as, images)
-
-if __name__ == "__main__":
-    cwd = os.getcwd()
-
-    save_as = "new_gif.gif"

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: giffer
-Version: 0.0.2
+Version: 0.0.3
 Summary: Basic .gif converter
 Home-page: https://github.com/salomaestro/giffer
 Author: Salomaestro
@@ -56,5 +56,5 @@ where `main.py` has the function `make_gif("./temp/images", "./temp/my_gif.gif")
 
 ### Example gif
 
-![example_gif](giffer/src/tests/giftest.gif)
+![example_gif](https://github.com/salomaestro/giffer/blob/main/giffer/src/tests/giftest.gif)
 

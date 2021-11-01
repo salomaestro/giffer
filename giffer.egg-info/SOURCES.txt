@@ -8,7 +8,9 @@ giffer.egg-info/dependency_links.txt
 giffer.egg-info/requires.txt
 giffer.egg-info/top_level.txt
 giffer/src/__init__.py
+giffer/src/_pyplot_extension.py
 giffer/src/_temp.py
 giffer/src/_util.py
 giffer/src/tests/__init__.py
+giffer/src/tests/test_gif_obj.py
 giffer/src/tests/test_making_gif.py
