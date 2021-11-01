@@ -3,8 +3,6 @@ import numpy as np
 from os.path import join
 from os import getcwd, listdir
 
-from numpy.core.fromnumeric import sort
-
 class Converter:
     def __init__(self, folder_path):
         self.folder_path = folder_path
