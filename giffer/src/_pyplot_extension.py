@@ -36,14 +36,21 @@ class Gif:
         except OSError as e:
             print("Error: %s : %s" % (self.tempdir, e.strerror))
 
-    def frame(self) -> None:
+    def frame(self, frame_duration=1) -> None:
         """
         Add a frame to the gif! Use this function inside a plot-updating loop.
 
         Utilizes matplotlib's pyplot.savefig() to temporarily save images from a iterating frame.
+
+        Parameters:
+            frame_duration: int
+                Include the same frame over the specified frame_duration in the gif. Optional, standard as 1 frame of each figure.
         """
-        plt.savefig(join(self.tempdir, "img (" + str(self.i) + ").png"))
-        self.i += 1
+        start_frame_dur = self.i
+        while start_frame_dur < frame_duration + self.i:
+            plt.savefig(join(self.tempdir, "img (" + str(start_frame_dur) + ").png"))
+            start_frame_dur += 1
+        self.i += frame_duration
 
     def save(self, gifname:str) -> None:
         """ 
